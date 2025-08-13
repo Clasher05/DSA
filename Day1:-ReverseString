@@ -1,0 +1,19 @@
+package Day1_Problems;
+
+import java.util.*;
+public class ReverseString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name="Java";
+		
+		String reverse=new StringBuilder(name).reverse().toString();
+		
+		System.out.println("Original:- " +name);
+
+		System.out.println("Reverse:- "+reverse);
+		
+		
+	}
+
+}
